@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hambúrguer na Brasa</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">Hambúrguer na Brasa</div>
+
+    <nav class="nav">
+        <button onclick="showSection('menu')">🍔 Cardápio</button>
+        <button onclick="showSection('cart')">🛒 Pedido</button>
+        <button onclick="showSection('contact')">📞 Contato</button>
+        <button onclick="toggleTheme()">🌙 Tema</button>
+    </nav>
+
+    <div class="user-area">
+        <span id="userName"></span>
+        <button class="login-btn" onclick="login()">Login</button>
+    </div>
+</header>
+
+<main>
+    <section id="menu" class="section active"></section>
+
+    <section id="cart" class="section">
+        <h2>Carrinho</h2>
+        <div id="cartSidebar">
+            <div id="cartItems"></div>
+            <p id="cartTotal">Total: R$ 0,00</p>
+            <p>Itens: <span id="cartCount">0</span></p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Fale Conosco</h2>
+        <p>Email: contato@hamburgernabrasa.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+    </section>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
