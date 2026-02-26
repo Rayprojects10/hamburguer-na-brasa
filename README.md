@@ -1,57 +1,67 @@
-🍔 Hambúrguer na Brasa 
-🔹 Descrição do Projeto
-Hambúrguer na Brasa é uma página web interativa criada com HTML, CSS e JavaScript, que simula um cardápio de hambúrgueres moderno. O projeto tem como objetivo demonstrar habilidades em front-end, design responsivo, UX/UI e manipulação de DOM.
-O usuário pode navegar facilmente pelo cardápio, ver os detalhes dos produtos, adicionar itens ao carrinho e entrar em contato com a loja. A página ainda conta com modo claro e escuro e barra de login.
+🍔 Hambúrguer na Brasa | Front-End Project
 
-🔹 Funcionalidades
-	•	Exibição de 6 tipos de hambúrgueres com:
-	◦	Nome
-	◦	Foto
-	◦	Ingredientes
-	◦	Preço
-	◦	Botão “Fazer Pedido”
-	◦ Abas de navegação:
-	◦	Cardápio – lista de produtos
-	◦	Carrinho – produtos selecionados
-	◦	Contato – formulário de contato
-	◦ Modo claro e escuro com alternância
-	◦ Login (simulação front-end)
-	◦	Design responsivo para desktop e mobile
+**Hambúrguer na Brasa** é uma página web interativa construída com **HTML, CSS e JavaScript**, simulando um cardápio moderno de hambúrgueres.  
 
-🔹 Tecnologias Usadas
-	◦	HTML5 – Estrutura da página
-	◦	CSS3 – Layout, responsividade, modo claro/escuro
-	◦	JavaScript – Interatividade: carrinho, alternância de tema, login simulado
-	◦	Git e GitHub – Controle de versão e hospedagem do projeto
+O projeto demonstra habilidades em **Front-End**, UX/UI, design responsivo e manipulação dinâmica do DOM, com funcionalidades como carrinho de compras, login simulado e alternância de tema (claro/escuro).
 
-🔹 Como Rodar o Projeto Localmente
-	1 -	Clone este repositório:  git clone https://github.com/seu-usuario/nome-do-repositorio.git 
-	2	- Navegue até a pasta do projeto:  cd nome-do-repositorio 
-  3	- Abra o arquivo index.html no navegador de sua preferência (Chrome, Edge, Firefox).
+---
 
-🔹 Não é necessário servidor para rodar localmente. Todas as funcionalidades funcionam apenas com HTML, CSS e JS.
+# Funcionalidades / Features
 
-🔹 Estrutura de Pastas:
+- **Cardápio Interativo / Interactive Menu**: 6 tipos de hambúrgueres com:
+  - Nome / Name
+  - Foto / Image
+  - Ingredientes / Ingredients
+  - Preço / Price
+  - Botão “Fazer Pedido” / “Order Now” button
+- **Navegação por abas / Tab Navigation**:
+  - Cardápio / Menu
+  - Carrinho / Cart
+  - Contato / Contact
+- **Modo claro e escuro / Light & Dark Mode**
+- **Login simulado / Simulated Login (Front-End)**
+- **Design responsivo / Responsive Design**
+- **Carrinho funcional / Functional Cart** via JavaScript
 
+---
+
+# Tecnologias / Technologies
+
+- **HTML5** – Estrutura semântica / Semantic structure  
+- **CSS3** – Layout, responsividade e tema claro/escuro / Layout, responsive and light/dark theme  
+- **JavaScript (ES6+)** – Interatividade, carrinho, login e alternância de tema / Interactivity, cart, login, theme toggle  
+- **Git & GitHub** – Controle de versão e hospedagem / Version control and hosting  
+
+---
+
+# Como Rodar / How to Run
+
+https://hamburguer-na-brasa.vercel.app/
+
+# Estrutura de Pastas / Project Structure
 hamburguer-na-brasa/
 │
-├── index.html           # Página principal
-├── style.css            # Estilos gerais e modo claro/escuro
-├── script.js            # Funções JS (carrinho, contato, login)
+├── index.html          # Página principal / Main page
+├── style.css           # Estilos gerais e modo claro/escuro / Styles & light/dark mode
+├── script.js           # Funções JS (carrinho, login, contato) / JS functions (cart, login, contact)
 ├── assets/
-│   ├── images/          # Fotos dos hambúrgueres
-│   └── icons/           # Ícones e botões
+│   ├── images/         # Fotos dos hambúrgueres / Burger images
+│   └── icons/          # Ícones e botões / Icons and buttons
 └── README.md
 
-🔹 Demonstração
-   Visual da página:
+# Diferenciais do Projeto / Key Highlights
 
-🔹 Diferenciais do Projeto
-	•	Interatividade completa com JavaScript puro
-	•	Modo claro e escuro para melhor experiência do usuário
-	•	Design moderno e responsivo, adequado para dispositivos móveis
-	•	Simulação de login e carrinho, mostrando capacidade de manipulação de DOM e lógica front-end
+- Interatividade completa com JavaScript puro / Pure JavaScript interactivity
+- Tema claro e escuro / Light & dark mode, melhorando experiência do usuário
+- Design moderno e responsivo / Modern & responsive design, ideal para mobile e desktop
+- Simulação de login e carrinho / Simulated login & cart, mostrando manipulação de DOM e lógica Front-End
+- Código estruturado e organizado / Clean and maintainable code
 
-🔹 Contato
-	•	Email: rayanevanessaprojects@gmail.com
-	•	GitHub: https://github.com/Rayprojects10
+# Contato / Contact
+
+Email: rayanevanessaprojects@gmail.com
+
+GitHub: https://github.com/Rayprojects10
+
+Projetos Front-End com foco em interfaces modernas, responsivas e experiência do usuário / Front-End projects focused on modern, responsive, user-friendly interfaces.
+Aberta a oportunidades como Desenvolvedora Front-End Júnior / Open to Junior Front-End Developer opportunities.
